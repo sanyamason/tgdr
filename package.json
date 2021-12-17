@@ -69,7 +69,7 @@
     "styled-tools": "^1.6.0",
     "telegraf": "^3.25.5",
     "typesafe-actions": "^2.0.4",
-    "typescript": "^3.2.2"
+    "typescript": "^3.9.10"
   },
   "devDependencies": {
     "@types/body-parser": "^1.17.0",
