@@ -47,7 +47,7 @@
     "next": "^7.0.2",
     "normalize.css": "^8.0.1",
     "nprogress": "^0.2.0",
-    "passport": "^0.4.0",
+    "passport": "^0.6.0",
     "passport-jwt": "^4.0.0",
     "passport-telegram-official": "git+https://github.com/poeti8/passport-telegram-official.git",
     "query-string": "^6.2.0",
