@@ -1,0 +1,56 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - cloudinary > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - redux-form > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - cheerio > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - express-validator > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - passport-telegram-official > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - cloudinary-react > cloudinary-core > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - mongoose > async > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - next > @babel/core > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - next > autodll-webpack-plugin > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - next > webpackbar > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - next > write-file-webpack-plugin > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - styled-components > babel-plugin-styled-components > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - next > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - styled-components > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - next > autodll-webpack-plugin > webpack-merge > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - next > styled-jsx > babel-types > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - next > webpackbar > consola > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - next > webpackbar > table > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - next > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - styled-components > babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - next > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-10-05T21:22:52.348Z'
